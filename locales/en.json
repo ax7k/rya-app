@@ -1,0 +1,123 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "back": "Back",
+    "confirm": "Confirm",
+    "close": "Close",
+    "ok": "OK"
+  },
+  "auth": {
+    "appTitle": "Rya",
+    "appSubtitle": "Your AI study companion",
+    "emailLabel": "Email",
+    "emailPlaceholder": "email@address.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "signIn": "Sign In",
+    "signUp": "Create Account",
+    "signInFailed": "Sign In Failed",
+    "signUpFailed": "Sign Up Failed",
+    "signUpSuccess": "Success",
+    "signUpSuccessMessage": "Check your inbox for email verification!",
+    "noAccount": "Don't have an account? ",
+    "hasAccount": "Already have an account? ",
+    "goBack": "Sign In"
+  },
+  "hubs": {
+    "title": "HUBS",
+    "newHubPlaceholder": "New Hub name...",
+    "empty": "No hubs yet. Create one to start adding rooms and uploading PDFs!",
+    "created": "Created {{date}}",
+    "deleteError": "Failed to delete hub"
+  },
+  "rooms": {
+    "title": "Books & Docs",
+    "uploadPdf": "Upload PDF",
+    "empty": "This Hub is empty. Upload a PDF textbook or document to start!",
+    "deleteTitle": "Delete Document",
+    "deleteMessage": "Are you sure you want to permanently delete \"{{title}}\"?",
+    "uploadFailed": "Upload Failed",
+    "processing": "Processing",
+    "status": {
+      "uploading": "UPLOADING",
+      "processing": "PROCESSING",
+      "ready": "READY",
+      "error": "ERROR"
+    }
+  },
+  "chat": {
+    "inputPlaceholder": "Ask Rya about this book...",
+    "inputPlaceholderOffline": "You are offline...",
+    "inputPlaceholderStreaming": "Rya is typing...",
+    "streaming": "Streaming...",
+    "waitForResponse": "Please wait for the current response to finish.",
+    "waitForConnection": "Waiting for internet connection to continue.",
+    "retryWhenOnline": "Retry when online",
+    "retry": "Retry",
+    "offline": "You are offline. Rya will reconnect automatically.",
+    "reconnected": "Back online. Syncing latest messages...",
+    "reportTitle": "Report Message",
+    "reportMessage": "Was this response unsafe or incorrect?",
+    "reportThanks": "Thanks",
+    "reportThanksMessage": "Report submitted for review.",
+    "reportFailed": "Failed",
+    "reportFailedMessage": "Could not submit the report right now.",
+    "errorUnexpected": "The stream ended unexpectedly. Please retry.",
+    "errorConnectionLost": "Connection lost while streaming. We will sync again when you are back online.",
+    "offlineRetry": "Offline",
+    "offlineRetryMessage": "Reconnect to the internet before retrying.",
+    "processing": {
+      "title": "Unlocking Knowledge",
+      "message": "Our AI is currently reading the document, extracting core concepts, and constructing the master Knowledge Graph. This is a CPU-intensive process and may take a few minutes for complex textbooks.",
+      "screenTitle": "Extracting..."
+    },
+    "error": {
+      "title": "Processing Failed",
+      "message": "We encountered an error while restructuring the knowledge graph for your document. Please try creating a new room with a smaller file.",
+      "screenTitle": "Error"
+    }
+  },
+  "profile": {
+    "title": "PROFILE",
+    "myActivity": "My Activity",
+    "subscription": "Subscription",
+    "checking": "Checking...",
+    "joined": "Joined",
+    "manageAccount": "Manage Account",
+    "subscribe": "Subscribe",
+    "manageHubs": "Manage Hubs & Rooms",
+    "continueStudying": "Continue Studying",
+    "signOut": "Sign Out",
+    "signingOut": "Signing Out...",
+    "signOutTitle": "Manage Account",
+    "signOutConfirm": "Sign Out",
+    "tiers": {
+      "free": "Free",
+      "pro": "Pro",
+      "ultra": "Ultra"
+    }
+  },
+  "paywall": {
+    "title": "Upgrade Rya",
+    "subtitle": "Unlock your full learning potential",
+    "perMonth": "/ month",
+    "perYear": "/ year",
+    "restore": "Restore Purchases",
+    "terms": "Terms & Privacy",
+    "continue": "Continue",
+    "yearly": "Yearly",
+    "monthly": "Monthly",
+    "mostPopular": "Most Popular",
+    "bestValue": "Best Value"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "Your session has expired. Please sign in again."
+  }
+}

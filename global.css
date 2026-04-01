@@ -1,0 +1,142 @@
+@import 'tailwindcss';
+@import 'uniwind';
+
+@layer theme {
+  :root {
+    @variant light {
+      --color-background: #f2f0eb;
+      --color-foreground: #18181b;
+      --color-foreground-secondary: #52525b;
+      --color-card: #ffffff;
+      --color-card-foreground: #18181b;
+      --color-popover: #ffffff;
+      --color-popover-foreground: #18181b;
+      --color-primary: #111319;
+      --color-primary-foreground: #ffffff;
+      --color-secondary: #ebe7df;
+      --color-secondary-foreground: #18181b;
+      --color-muted: #a1a1aa;
+      --color-muted-foreground: #6b7280;
+      --color-accent: #d9bb78;
+      --color-accent-foreground: #241500;
+      --color-danger: #e05252;
+      --color-danger-foreground: #ffffff;
+      --color-success: #1f9d74;
+      --color-success-foreground: #f0fdf4;
+      --color-warning: #d97706;
+      --color-warning-foreground: #fff7ed;
+      --color-border: #d4d4d8;
+      --color-input: #d4d4d8;
+      --color-ring: #7d8597;
+
+      --color-pro-card: #111319;
+      --color-pro-card-muted: #1f2230;
+      --color-pro-card-border: #2c3040;
+      --color-pro-card-border-muted: #42485a;
+      --color-pro-card-foreground: #ffffff;
+      --color-pro-card-subtle: #d4d4d8;
+
+      --color-ultra-card: #c9a24c;
+      --color-ultra-card-muted: #d9bb78;
+      --color-ultra-card-border: #b8872f;
+      --color-ultra-card-border-muted: #c49a45;
+      --color-ultra-card-foreground: #241500;
+      --color-ultra-card-subtle: #3f2700;
+
+      --color-paywall-foreground: #18181b;
+      --color-paywall-icon-surface: #ffffff;
+      --color-paywall-icon-border: #d4d4d8;
+      --color-paywall-icon-foreground: #18181b;
+      --color-paywall-indicator-active: #18181b;
+      --color-paywall-indicator-inactive: #a1a1aa;
+
+      --color-paywall-plan-selected: #111319;
+      --color-paywall-plan-selected-border: #111319;
+      --color-paywall-plan-selected-foreground: #ffffff;
+      --color-paywall-plan-selected-subtle: #d4d4d8;
+      --color-paywall-plan-unselected: #ffffff;
+      --color-paywall-plan-unselected-border: #d4d4d8;
+      --color-paywall-plan-unselected-foreground: #18181b;
+      --color-paywall-plan-unselected-subtle: #52525b;
+      --color-paywall-monthly-border: #d4d4d8;
+      --color-paywall-chip-surface: #ffffff;
+      --color-paywall-chip-foreground: #111319;
+      --color-paywall-fineprint: #6b7280;
+
+      --color-paywall-scrim: #00000066;
+      --color-paywall-sheet: #ffffff;
+      --color-paywall-sheet-border: #d4d4d8;
+      --color-paywall-sheet-handle: #d4d4d8;
+      --color-paywall-sheet-foreground: #18181b;
+      --color-paywall-sheet-muted: #52525b;
+    }
+
+    @variant dark {
+      --color-background: #000000;
+      --color-foreground: #f4f4f5;
+      --color-foreground-secondary: #a7adc0;
+      --color-card: #1f2230;
+      --color-card-foreground: #f4f4f5;
+      --color-popover: #1f2230;
+      --color-popover-foreground: #f4f4f5;
+      --color-primary: #f2f0eb;
+      --color-primary-foreground: #111319;
+      --color-secondary: #2c3040;
+      --color-secondary-foreground: #f4f4f5;
+      --color-muted: #5f667a;
+      --color-muted-foreground: #a7adc0;
+      --color-accent: #f2f0eb;
+      --color-accent-foreground: #111319;
+      --color-danger: #f87171;
+      --color-danger-foreground: #2a0f0f;
+      --color-success: #34d399;
+      --color-success-foreground: #042f2e;
+      --color-warning: #f59e0b;
+      --color-warning-foreground: #3b2000;
+      --color-border: #2c3040;
+      --color-input: #3e455a;
+      --color-ring: #f2f0eb;
+
+      --color-pro-card: #e9e9ec;
+      --color-pro-card-muted: #d6d7dc;
+      --color-pro-card-border: #e9e9ec;
+      --color-pro-card-border-muted: #d6d7dc;
+      --color-pro-card-foreground: #090a0f;
+      --color-pro-card-subtle: #272a33;
+
+      --color-ultra-card: #c9a24c;
+      --color-ultra-card-muted: #d9bb78;
+      --color-ultra-card-border: #b8872f;
+      --color-ultra-card-border-muted: #c49a45;
+      --color-ultra-card-foreground: #241500;
+      --color-ultra-card-subtle: #3f2700;
+
+      --color-paywall-foreground: #ffffff;
+      --color-paywall-icon-surface: #18181b;
+      --color-paywall-icon-border: #3f3f46;
+      --color-paywall-icon-foreground: #ffffff;
+      --color-paywall-indicator-active: #ffffff;
+      --color-paywall-indicator-inactive: #52525b;
+
+      --color-paywall-plan-selected: #ececef;
+      --color-paywall-plan-selected-border: #ececef;
+      --color-paywall-plan-selected-foreground: #0b0c10;
+      --color-paywall-plan-selected-subtle: #3c3e46;
+      --color-paywall-plan-unselected: #0a0a0c;
+      --color-paywall-plan-unselected-border: #2c2c31;
+      --color-paywall-plan-unselected-foreground: #ffffff;
+      --color-paywall-plan-unselected-subtle: #d4d4d8;
+      --color-paywall-monthly-border: #ffffff;
+      --color-paywall-chip-surface: #0b0c10;
+      --color-paywall-chip-foreground: #ffffff;
+      --color-paywall-fineprint: #d4d4d8;
+
+      --color-paywall-scrim: #00000080;
+      --color-paywall-sheet: #0a0a0c;
+      --color-paywall-sheet-border: #2c2c31;
+      --color-paywall-sheet-handle: #3f3f46;
+      --color-paywall-sheet-foreground: #ffffff;
+      --color-paywall-sheet-muted: #d4d4d8;
+    }
+  }
+}
